@@ -1,7 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
 * {
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
+nav {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  background-color: #cafdff;
+}
+
+header {
+  background-color: #eadcff;
+  height: calc(100vh - 70px);
+  padding: 24px;
+  display: flex;
+  justify-content: center;align-items: center;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1300px;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+.subheader {
+  font-size: 36px;
+  margin: 16px 0 24px 0;
+}
+
+button {
+  background-color: #41b8c5;
+  color: white;
+  font-size: 24px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+a {
+  color: black;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.logo {
+  width: 300px;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+  margin-left: 16px;
+}
+
+/*
+
+ABOUT
+
+*/
+
+#about,
+#discord,
+#contact {
+  padding: 48px 0;
+}
+
+#about {
+  background-color: #f8ffdc;
+}
+
+h2 {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.desc-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-img-wrapper {
+  width: 40%;
+}
+
+img {
+  width: 100%;
+}
+
+.section-desc-wrapper {
+  width: 60%;
+}
+
+.section-desc-wrapper,
+.about-img-wrapper {
+  padding: 0 24px;
+}
+
+.desc-para {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+/*
+
+DISCORD
+
+*/
+
+#discord {
+  background-color: #cefeff;
+ 
+}
+
+
+
 
